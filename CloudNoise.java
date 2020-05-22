@@ -13,7 +13,6 @@ public class CloudNoise {
 		int cellSizeX = width/cellPerAxisX;
 		int cellSizeY = height/cellPerAxisY;
 		double maxDistance = Math.hypot(cellSizeX, cellSizeY);
-		
 		//create points
 		Random r = new Random();
 		Point[][] points = new Point[cellPerAxisX][cellPerAxisY];
@@ -24,7 +23,6 @@ public class CloudNoise {
 				points[i][j] = new Point(x, y);
 			}
 		}
-		
 		//tile
 		Point[][] tiledPoints = new Point[(3*cellPerAxisX)][(3*cellPerAxisY)];
 		for(int a = 0; a < 3; a++) {

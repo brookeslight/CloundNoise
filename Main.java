@@ -48,7 +48,6 @@ public class Main extends Canvas implements Runnable {
 		//
 		CloudNoise noise = new CloudNoise(200, 200, 25);
 		this.display = noise.toImage();
-		System.out.println(noise.get(0, 0));
 	}
 	
 	@Override
