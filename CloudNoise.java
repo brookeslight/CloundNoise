@@ -92,7 +92,7 @@ public class CloudNoise {
 		return this.noise[i][j];
 	}
 	
-	class Point {
+	private class Point {
 		private float x;
 		private float y;
 		
